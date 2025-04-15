@@ -1,0 +1,138 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ElectroBooky</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #1e1e2f, #3a3a5f);
+      color: #fff;
+    }
+
+    header {
+      background-color: #2a2a4d;
+      padding: 20px;
+      text-align: center;
+      font-size: 32px;
+      font-weight: bold;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+
+    .intro {
+      text-align: center;
+      padding: 20px;
+      font-size: 18px;
+      color: #ccc;
+    }
+
+    .section-title {
+      text-align: center;
+      font-size: 24px;
+      margin-top: 40px;
+      margin-bottom: 10px;
+      color: #ffd700;
+    }
+
+    .book-container {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      padding: 20px;
+      gap: 20px;
+    }
+
+    .book {
+      background-color: #29294d;
+      border-radius: 10px;
+      padding: 20px;
+      width: 300px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.4);
+      transition: transform 0.3s ease;
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .book:hover {
+      transform: scale(1.05);
+      background-color: #333366;
+    }
+
+    .book h3 {
+      margin-top: 0;
+      color: #ffd700;
+    }
+
+    .book p {
+      color: #ccc;
+    }
+
+    footer {
+      text-align: center;
+      padding: 10px;
+      background-color: #1a1a2d;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    ElectroBooky
+  </header>
+
+  <div class="intro">
+    Добре дошли в училищния ни сайт за електронни и хартиени книги! Прочети, научи и се забавлявай!
+  </div>
+
+  <!-- Измислени книги -->
+  <div class="section-title">📚 Наши електронни книги</div>
+  <div class="book-container">
+    <a class="book" href="book1.html">
+      <h3>🌟 Тайните на Математика 5.0</h3>
+      <p>Открий как числата могат да бъдат магия.</p>
+      <p><em>Автор: Учител Хикс</em></p>
+    </a>
+
+    <a class="book" href="book2.html">
+      <h3>📖 История от бъдещето</h3>
+      <p>Училище през 2125 година? Прочети фантастичната история!</p>
+      <p><em>Автор: Ана Андроида</em></p>
+    </a>
+
+    <a class="book" href="book3.html">
+      <h3>🔬 ЕлектроНаука за начинаещи</h3>
+      <p>Какво е електричество и как работи?</p>
+      <p><em>Автор: Доктор Волт</em></p>
+    </a>
+  </div>
+
+  <!-- Истински каталог -->
+  <div class="section-title">📗 Каталог с истински книги</div>
+  <div class="book-container">
+    <a class="book" href="https://www.ozone.bg/product/hari-potar-i-filosofskiyat-kam-k-j-k-rouling/" target="_blank">
+      <h3>🪄 Хари Потър и Философският камък</h3>
+      <p>Започни магическото приключение с Хари, Хърмаяни и Рон.</p>
+      <p><em>Дж. К. Роулинг</em></p>
+    </a>
+
+    <a class="book" href="https://www.store.bg/p222034/vselena-ot-atomi-do-cherni-dupnki-stivan-hoking.html" target="_blank">
+      <h3>🧠 Вселена – От атоми до черни дупки</h3>
+      <p>Открий Вселената с помощта на Стивън Хокинг.</p>
+      <p><em>Стивън Хокинг</em></p>
+    </a>
+
+    <a class="book" href="https://www.ozone.bg/product/1984-george-orwell/" target="_blank">
+      <h3>👁 1984</h3>
+      <p>Фантастичен роман за контрол, свобода и истина.</p>
+      <p><em>Джордж Оруел</em></p>
+    </a>
+  </div>
+
+  <footer>
+    &copy; 2025 ElectroBooky - Учене с електрическа искра! ⚡
+  </footer>
+</body>
+</html>
